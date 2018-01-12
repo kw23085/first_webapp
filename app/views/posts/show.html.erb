@@ -1,0 +1,8 @@
+<h1><%= @post.title %></h1>
+<%= image_tag(@post.picture_url) %>
+<h2><%= @post.body %></h2>
+
+<p>Posted by: <%= @post.user.name %></p>
+<p><%= time_ago_in_words(@post.created_at) %> ago</p> 
+
+<hr />
