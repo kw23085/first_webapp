@@ -1,0 +1,8 @@
+<h1> Edit Post </h1>
+
+<%= form_for @post do |p| %>
+    <%= p.text_field :title, placeholder: "Post title" %>
+    <%= p.text_field :picture_url, placeholder: "Post image" %>
+    <%= p.text_field :body, placeholder: "Post body" %>
+    <%= p.submit %>
+<% end %>

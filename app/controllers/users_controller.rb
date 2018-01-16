@@ -6,6 +6,7 @@ class UsersController < ApplicationController
   end
 
   def show
+    # display the user profile, with a list of all of that user's post titles
   end
 
   def new
@@ -26,6 +27,11 @@ class UsersController < ApplicationController
   end
 
   def destroy
+    @user = current_user
+    session[:user_id] = nil
+    if @user.destroy
+      redirect_to root_path
+    end
   end
 
   private

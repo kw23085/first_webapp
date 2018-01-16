@@ -1,7 +1,10 @@
-<h1>All them posts</h1>
+<h1>News List</h1>
 
 <ul>
     <% @posts.each do |p| %>
-        <li><%= link_to(p.title, post_path(p)) %></li>
+        <li>
+            <%= image_tag(p.picture_url) %>
+            <%= link_to(p.title, post_path(p)) %>
+        </li>
     <% end %>
 </ul>
