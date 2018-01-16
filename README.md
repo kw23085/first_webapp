@@ -1,24 +1,31 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# **Hoopr**
+---
+Hoopr is a platform for the basketball players to share basketball news around the world! Users are able view and post thier basketball moments onto the hoopr list. Hoopr allows users to interact with each other in the comment section of each posts.
 
-Things you may want to cover:
+---
+# Development & Technologies
 
-* Ruby version
+Hoopr was built using HTML, CSS, Ruby, Ruby on rails, Boostrap.
 
-* System dependencies
+---
+#Approach Taken
 
-* Configuration
+My approach to this project is to create the wireframe of my website. Once I am done with the wireframe and got a better idea on what I am building I went on and created the Entity Relationship Diagram for my database. Then I went on to write the code in my text editor with constant commits onto github. I also created heroku in my app files in the very beining of my project.
 
-* Database creation
+---
+#Installation/Startup Instructions
 
-* Database initialization
+Click [HERE](https://github.com/twbs/bootstrap-rubygem) for instructions on how to install boostrap for Ruby on Rails.
 
-* How to run the test suite
+---
+#Unsolved Problems & Next Steps
 
-* Services (job queues, cache servers, search engines, etc.)
+- Create comment sections for each post.
+- Create like button for each post.
+- Lets user post videos.
 
-* Deployment instructions
+---
+#Trello
 
-* ...
+Click [HERE](https://trello.com/b/S7EtWptR/project-2). 
