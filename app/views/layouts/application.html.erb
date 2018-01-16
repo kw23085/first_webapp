@@ -12,13 +12,7 @@
   </head>
 
   <body>
-
-  <% if logged_in? %>
-    <%= link_to "Logout", logout_path, {method: "DELETE"} %>
-  <% else %>
-    <%= link_to "Login", new_session_path %>
-  <% end %>
-
+  <%= render 'partials/navbar' %>
     <%= yield %>
   </body>
 </html>

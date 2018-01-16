@@ -7,6 +7,7 @@ class UsersController < ApplicationController
 
   def show
     # display the user profile, with a list of all of that user's post titles
+    @user = User.find(params[:id])
   end
 
   def new
